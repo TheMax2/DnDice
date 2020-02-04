@@ -1,0 +1,13 @@
+/* css works like this:
+
+element{
+	attribute: value;
+}
+
+*/
+
+/*for example*/
+body{ /*selects element. this has to be an element in the html file*/
+	background-color: lightgray; /*sets the attribute of the selected element*/
+}
+
