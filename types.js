@@ -23,6 +23,14 @@ class octahedron extends dice {
 	}
 }
 
+class dodecahedron extends dice {
+	constructor(){
+		super();
+		this.nam = "dodecahedron";
+		this.nos = 12;
+	}
+}
+
 class ummWhatOtherTypesOfDiceAreThereAgain{
 
 }
