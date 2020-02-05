@@ -23,11 +23,11 @@ class octagon extends dice {
 	}
 }
 
-class tenGon extends dice {
+class dodecahedron extends dice {
 	constructor(){
 		super();
-		this.nam = "d10";
-		this.nos = 10;
+		this.nam = "dodecahedron";
+		this.nos = 12;
 	}
 }
 
