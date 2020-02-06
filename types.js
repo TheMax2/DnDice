@@ -23,6 +23,14 @@ class octagon extends dice {
 	}
 }
 
+class decagon extends dice {
+	constructor(){
+		super();
+		this.nam = "d10";
+		this.nos = 10;
+	}
+}
+
 class octahedron extends dice {
 	constructor(){
 		super();
