@@ -31,7 +31,7 @@ class decagon extends dice {
 	}
 }
 
-class octahedron extends dice {
+class dodecahedron extends dice {
 	constructor(){
 		super();
 		this.nam = "d12";
