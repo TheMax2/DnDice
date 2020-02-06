@@ -47,17 +47,21 @@ function addDice( type){
 function createButtons(){
 	var add4Btn = document.getElementById("add4");
 	add4Btn.addEventListener("click", function(e){ 
+		rollBtn.disabled = false;
 		addDice(caltrop);
 	})
 	var add6Btn = document.getElementById("add6");
 	add6Btn.addEventListener("click", function(e){ 
+		rollBtn.disabled = false;
 		addDice(cube);
 	})
 	var add8Btn = document.getElementById("add8");
 	add8Btn.addEventListener("click", function(e){ 
+		rollBtn.disabled = false;
 		addDice(octahedron);
 	})
 	var rollBtn = document.getElementById("roll");
+	rollBtn.disabled = true;
 	rollBtn.addEventListener("click", function(e){ 
 		roll();
 		var total = document.getElementById("total");
